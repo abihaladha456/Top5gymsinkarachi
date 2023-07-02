@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Top 5 Gyms in Karachi.</title>
+
+    <style>
+        .additional-info {
+            display: none;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var showInfoButton = document.getElementById('show-info-button');
+            var additionalInfo = document.getElementById('additional-info');
+
+            showInfoButton.addEventListener('click', function() {
+                additionalInfo.style.display = 'block';
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 style="text-align:center ;">Top 5 Gyms in Karachi.</h1>
+
+
+    <div class="gym">
+        <h2>TriFit</h2>
+        <p>Address:93C Khayaban-e-Shaheen
+            DHA Phase 7</p>
+        <p>Contact Us:+92-3331 TRIFIT (874348)</p>
+        <p>Description: TriFit is an international-level health and fitness brand promoting an active lifestyle through an accessible network of high-tech and smart fitness clubs.</p>
+        <br>
+        <button id="show-info1" onclick="Trifit()">Show Additional Info</button>
+        <br><br>
+
+    <div class="gym">
+        <h2>Platinum Fitness</h2>
+        <p>Address:4th Floor, Emerald Tower, Block 5 Clifton, Karachi, Karachi City, Sindh 75500, Pakistan</p>
+        <p>Contact Us:+922135147727</p>
+        <p>Description:Platinum Fitness: A top-rated gym with modern facilities, expert trainers, and a variety of fitness classes to help you reach your goals and maintain a healthy lifestyle. </p>
+        <br>
+        <button id="show-info-button" onclick="Platinum()">Show Additional Info</button>
+        <br><br>  
+        <div class="gym">
+            <h2>GymShim</h2>
+            <p>Address:W4H7+56G, New Rd Service Ln, Block 1 Gulistan-e-Johar</p>
+            <p>Contact Us:+91 7276160009</p>
+            <p>Description:GymShim: A modern and innovative gym offering personalized training, state-of-the-art facilities, and a diverse range of fitness programs for all levels. Reach your fitness goals in a motivating environment with experienced trainers at GymShim.</p>
+            <br>
+            <button id="show-button" onclick="GymShim()">Show Additional Info</button>
+               <br><br>
+            <div class="gym">
+                <h2>Velocity X</h2>
+                <p>Address:D91, Tipu Sultan Rd, KDA Scheme #1 KDA Scheme 1</p>
+                <p>Contact Us:(021) 34550068</p>
+                <p>Description:Velocity X Gym: Unleash your potential with intense workouts, top-notch equipment, and expert coaching. Reach new heights at Velocity X.</p>
+                <br>
+                <button id="button" onclick="Velocity()">Show Additional Info</button>
+                      <br><br>
+                <div class="gym">
+                    <h2>Body Evolution</h2>
+                    <p>Address:V3J9+W7, Bahadurabad Bahadur Yar Jang CHS, </p>
+                    <p>Contact Us:03066667817
+                    <p>Description:Body Evolution where you can transform your fitness journey with us. Achieve your goals at a state-of-the-art facility with expert trainers. Evolve your body at Body Evolution.</p>
+                    <br>
+                    <button id="button5" onclick="Evolution()">Show Additional Info</button>
+                            <br><br>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
